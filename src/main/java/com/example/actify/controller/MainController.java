@@ -12,5 +12,11 @@ public class MainController {
 		//View is mapped based on thymeleaf dependency. Otherwise we will get a 404
 		return "index";
 	}
+	
+	@GetMapping("/chat")
+	public String getChatPage() {
+		//View is mapped based on thymeleaf dependency. Otherwise we will get a 404
+		return "chat";
+	}
 
 }

@@ -18,7 +18,7 @@ public class MessageController {
 	    if("Hi".equalsIgnoreCase(message)) {
 	    	response.setMessage("Hi, how can I help you?");
 	    }
-	    else if("What is my current year sales".equalsIgnoreCase(message)) {
+	    else if("What is my current year sales?".equalsIgnoreCase(message)) {
 	    	response.setMessage("Current year sales is 25 Cr");
 	    }
 	    else{
